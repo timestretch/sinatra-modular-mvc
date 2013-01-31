@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title><%= title %></title>
+	<style>
+		body {font-family: Helvetica; padding: 40px;}
+		label {display:block; margin-top: 8px;}
+		input {display:block;}
+		input[type=Submit] {margin-top:20px;}
+		.warning {border: 1px solid red; color: red; padding: 4px;margin-bottom: 20px;}
+	</style>
+</head>
+<body>
+
+	<h1><%= title %></h1>
+	
+	<%= yield %>
+	
+</body>
+</html>
